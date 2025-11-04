@@ -8,7 +8,15 @@ variable "vpc-name" {
 variable "vpc-cidr" {
    description = "CIDR block for the vpc"
 }
-
+variable "subnet_cidr" {
+   description = "CIDR block for the sudnet"
+}
+variable "availability_zone" {
+   description = "name of the availability zone"
+}
+variable "subnet_name" {
+   description = "name of the subnet"
+}
 
 
 
